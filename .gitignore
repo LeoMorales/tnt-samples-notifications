@@ -1,51 +1,48 @@
-*.iml
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-
 # Built application files
-/*/build/
+[base-project|solution-project]/*/build/
 
 # Crashlytics configuations
-com_crashlytics_export_strings.xml
+[base-project|solution-project]/com_crashlytics_export_strings.xml
 
 # Local configuration file (sdk path, etc)
-local.properties
+[base-project|solution-project]/local.properties
 
 # Gradle generated files
-.gradle/
+[base-project|solution-project]/.gradle/
 
 # Signing files
-.signing/
+[base-project|solution-project]/.signing/
 
 # User-specific configurations
-.idea/libraries/
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/.name
-.idea/compiler.xml
-.idea/copyright/profiles_settings.xml
-.idea/encodings.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/scopes/scope_settings.xml
-.idea/vcs.xml
-*.iml
+[base-project|solution-project]/.idea/libraries/
+[base-project|solution-project]/.idea/workspace.xml
+[base-project|solution-project]/.idea/tasks.xml
+[base-project|solution-project]/.idea/.name
+[base-project|solution-project]/.idea/compiler.xml
+[base-project|solution-project]/.idea/copyright/profiles_settings.xml
+[base-project|solution-project]/.idea/encodings.xml
+[base-project|solution-project]/.idea/misc.xml
+[base-project|solution-project]/.idea/modules.xml
+[base-project|solution-project]/.idea/scopes/scope_settings.xml
+[base-project|solution-project]/.idea/vcs.xml
+[base-project|solution-project]/*.iml
 
 # OS-specific files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+[base-project|solution-project]/.DS_Store
+[base-project|solution-project]/.DS_Store?
+[base-project|solution-project]/._*
+[base-project|solution-project]/.Spotlight-V100
+[base-project|solution-project]/.Trashes
+[base-project|solution-project]/ehthumbs.db
+[base-project|solution-project]/Thumbs.db
+
+# extra
+[base-project|solution-project]*.iml
+[base-project|solution-project]/.idea/caches
+[base-project|solution-project]/.idea/navEditor.xml
+[base-project|solution-project]/.idea/assetWizardSettings.xml
+[base-project|solution-project].DS_Store
+[base-project|solution-project]/build
+[base-project|solution-project]/captures
+[base-project|solution-project].externalNativeBuild
+[base-project|solution-project].cxx
