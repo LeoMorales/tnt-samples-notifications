@@ -22,7 +22,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun createNotificationChannel() {
-        TODO("Implementar la creación del canal")
+        // Implementar la creación del canal
+        return
     }
 
     private fun handleButtonClick() {
